@@ -1,4 +1,4 @@
-const BASE_URL = "<inserir aqui a URL da API>";
+const BASE_URL = "http://curso-serverless2-api-1428908743.us-east-1.elb.amazonaws.com";
 
 function buildFetchObj(metodo, contentType, body) {
   return ({
